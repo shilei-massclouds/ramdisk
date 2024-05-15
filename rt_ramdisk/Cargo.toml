@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+boot = { git = "ssh://git@github.com/shilei-massclouds/boot.git" }
+config = { git = "ssh://git@github.com/shilei-massclouds/config.git" }
+axtype = { git = "ssh://git@github.com/shilei-massclouds/axtype.git" }
+ramdisk = { git = "ssh://git@github.com/shilei-massclouds/ramdisk.git" }
+axalloc = { git = "ssh://git@github.com/shilei-massclouds/axalloc.git" }
+axlog = { git = "ssh://git@github.com/shilei-massclouds/axlog.git" }
+earlycon = { git = "ssh://git@github.com/shilei-massclouds/earlycon.git" }
+hal_base = { git = "ssh://git@github.com/shilei-massclouds/hal_base.git" }

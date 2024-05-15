@@ -1,12 +1,12 @@
 //! Mock block devices that store data in RAM.
 
 #![no_std]
+#![feature(const_trait_impl)]
 
 extern crate alloc;
 
-use crate::BlockDriverOps;
 use alloc::{vec, vec::Vec};
-use driver_common::{BaseDriverOps, DevError, DevResult, DeviceType};
+use driver_common::{BaseDriverOps, DevError, DevResult, DeviceType, BlockDriverOps};
 
 const BLOCK_SIZE: usize = 512;
 

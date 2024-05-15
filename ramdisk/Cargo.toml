@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-driver_common = { path = "ssh://git@github.com/shilei-massclouds/driver_common" }
+driver_common = { git = "ssh://git@github.com/shilei-massclouds/driver_common" }
