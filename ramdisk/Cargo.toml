@@ -1,0 +1,7 @@
+[package]
+name = "ramdisk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+driver_common = { path = "ssh://git@github.com/shilei-massclouds/driver_common" }
