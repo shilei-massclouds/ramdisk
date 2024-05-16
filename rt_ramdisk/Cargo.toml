@@ -12,3 +12,4 @@ axalloc = { git = "ssh://git@github.com/shilei-massclouds/axalloc.git" }
 axlog = { git = "ssh://git@github.com/shilei-massclouds/axlog.git" }
 earlycon = { git = "ssh://git@github.com/shilei-massclouds/earlycon.git" }
 hal_base = { git = "ssh://git@github.com/shilei-massclouds/hal_base.git" }
+driver_common = { git = "ssh://git@github.com/shilei-massclouds/driver_common.git" }
